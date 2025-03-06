@@ -103,7 +103,7 @@ Customer retention was evaluated using the Recency, Frequency, and Monetary (RFM
 By leveraging RFM analysis, businesses can design data-driven customer retention strategies that enhance engagement, foster loyalty, and maximize customer lifetime value.
 
 
-## Recommendations
+## Recommendations Based on Insights & Findings
 
 ### Optimize Discount Strategies
 - Maintain discounts below 16% to prevent profit erosion.
