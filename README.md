@@ -13,16 +13,40 @@ This project analyzes transactional data from a retail superstore to uncover key
 
 
 ## Methodology
-1. **Data Acquisition:**
-   - Sales transaction data is sourced from `superstore_sales_data.csv`.
-2. **Database Setup:**
-   - The MySQL database is created, and the schema is defined.
-3. **Data Loading & Cleaning:**
-   - The raw data is imported and processed to ensure quality and consistency.
-4. **Exploratory Data Analysis (EDA):**
-   - Key insights are derived from summary statistics, trend analysis, and customer behavior studies.
-5. **Customer Segmentation (RFM Analysis):**
-   - Customers are categorized based on purchasing patterns to enhance marketing strategies.
+
+### Data Collection
+The dataset used in this project is the `superstore_sales_data.csv`, which contains transactional data from a retail superstore. The data was loaded into a MySQL database using `load_data.sql`. The key steps involved in data collection were:
+
+- Creating the `SUPERSTORE_SALES_DB` database.
+- Defining the `SALES_DATA` table structure.
+- Loading data using the MySQL `LOAD DATA INFILE` method.
+
+### Data Cleaning
+Data cleaning was performed using `clean_data.sql` to ensure consistency and accuracy. The following key operations were conducted:
+
+- Converted `ORDER_DATE` and `SHIP_DATE` from Excel serial format to MySQL `DATE` format.
+- Checked for duplicate `ROW_ID`s and found none.
+- Identified and handled missing values, particularly imputing `PRODUCT_BASE_MARGIN` using the average per `PRODUCT_SUB_CATEGORY`.
+- Standardized text-based categorical values by converting them to lowercase and trimming spaces.
+- Rounded numerical values to two decimal places for consistency.
+- Validated data integrity by ensuring no negative `QUANTITY_ORDERED_NEW` values.
+
+### Exploratory Data Analysis (EDA)
+EDA was conducted using `EDA.sql` to uncover key insights and trends within the dataset. This involved:
+
+- Statistical summaries of key metrics such as sales and profit.
+- Analysis of categorical data, including `ORDER_PRIORITY`, `SHIP_MODE`, and `CUSTOMER_SEGMENT`.
+- Identification of top customers, trends in sales across different months, and the impact of discounts on profitability.
+
+### RFM Analysis
+To segment customers, `RFM_analysis.sql` was used to calculate Recency (R), Frequency (F), and Monetary (M) scores:
+
+- **Recency:** Days since the last purchase.
+- **Frequency:** Number of distinct orders per customer.
+- **Monetary:** Total sales per customer.
+
+Customers were segmented into categories like 'Loyal', 'New', 'Slipping Away', and 'Churned' for targeted marketing efforts.
+
 
 ## Requirements
 - MySQL Server 8.0 or later
