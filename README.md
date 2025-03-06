@@ -1,43 +1,16 @@
 # Superstore Sales Data Analysis
 
+
 ## Project Overview
-This project aims to analyze sales data from a superstore to gain business insights. It involves database creation, data cleaning, exploratory data analysis (EDA), and customer segmentation using RFM (Recency, Frequency, and Monetary) analysis.
+This project analyzes transactional data from a retail superstore to uncover key insights related to sales performance, customer segmentation, and profitability. Using SQL-based data processing, we conducted extensive data cleaning, exploratory data analysis (EDA), and customer retention analysis through RFM segmentation. The findings provide strategic recommendations for optimizing sales, discount strategies, and customer retention efforts.
 
 ## Files in the Repository
+- `superstore_sales_data.csv`: Raw dataset containing transactional sales data.
+- `load_data.sql`: SQL script for loading data into a MySQL database.
+- `clean_data.sql`: SQL script for cleaning and standardizing data.
+- `EDA.sql`: SQL queries for exploratory data analysis.
+- `RFM_analysis.sql`: SQL script for conducting RFM analysis and customer segmentation.
 
-### 1. **superstore_sales_data.csv**
-   - This is the main dataset containing sales transactions.
-   - It includes details such as order priority, discount, unit price, shipping cost, customer details, product details, profit, and sales figures.
-
-### 2. **create_database_and_tables.sql**
-   - Creates the `SUPERSTORE_SALES_DB` database.
-   - Defines the `SALES_DATA` table with appropriate column types.
-   - Establishes the schema to store transactional sales data.
-
-### 3. **load_data.sql**
-   - Loads the `superstore_sales_data.csv` into the `SALES_DATA` table using MySQL's `LOAD DATA INFILE` command.
-   - Ensures data integrity by handling null values.
-
-### 4. **clean_data.sql**
-   - Cleans and preprocesses the dataset:
-     - Converts date columns from Excel serial format to MySQL date format.
-     - Removes duplicate records.
-     - Identifies and imputes missing values for `PRODUCT_BASE_MARGIN`.
-     - Standardizes categorical data by converting text to lowercase and trimming spaces.
-     - Validates numerical values and ensures they are correctly formatted.
-
-### 5. **EDA.sql**
-   - Performs exploratory data analysis, including:
-     - Summary statistics of sales and profit.
-     - Analysis of order priority, shipping mode, and customer behavior.
-     - Time-series analysis to identify seasonal trends.
-     - Regional and managerial performance insights.
-     - Impact of discounts on profitability.
-
-### 6. **RFM_analysis.sql**
-   - Conducts customer segmentation using RFM analysis:
-     - Computes recency (time since last purchase), frequency (number of purchases), and monetary value (total spend).
-     - Assigns RFM scores and segments customers into groups such as loyal, new, or at-risk.
 
 ## Methodology
 1. **Data Acquisition:**
