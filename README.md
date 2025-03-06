@@ -105,23 +105,23 @@ By leveraging RFM analysis, businesses can design data-driven customer retention
 
 ## Recommendations
 
-**Optimize Discount Strategies**
+### Optimize Discount Strategies
 - Maintain discounts below 16% to prevent profit erosion.
 - Offer strategic discounts to high-value customers rather than across all customer segments.
 
-**Improve Regional Performance**
+### Improve Regional Performance
 - Investigate the challenges faced by the South region and implement targeted sales strategies.
 - Leverage successful strategies from the Central region to improve weaker regions.
 
-**Enhance Shipping Efficiency**
+### Enhance Shipping Efficiency
 - Explore cost-effective shipping options for the East region.
 - Encourage customers to consolidate orders to optimize shipping costs.
 
-**Managerial Training & Strategy**
+### Managerial Training & Strategy
 - Provide additional training and resources for underperforming managers like Sam.
 - Encourage knowledge sharing between high-performing and struggling managers to improve overall sales and profitability.
 
-**Strengthen Customer Retention**
+### Strengthen Customer Retention
 - Develop personalized marketing campaigns for loyal and slipping-away customers.
 - Offer incentives such as exclusive deals or early access to products for high-frequency customers.
 
