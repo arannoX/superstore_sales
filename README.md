@@ -94,13 +94,29 @@ Customers were segmented into categories like 'Loyal', 'New', 'Slipping Away', a
 - **Least Performing Manager:** Sam had the lowest sales and profit, indicating a need for strategy improvement.
 
 ### 6. Customer Retention (RFM Analysis)
-Customer retention was evaluated using the Recency, Frequency, and Monetary (RFM) model to classify customers based on their purchasing behavior. This segmentation enables businesses to tailor retention strategies effectively:
 
-- **Loyal Customers:** High-value customers with frequent purchases. Retention efforts should include personalized experiences, early access to promotions, and loyalty rewards.
-- **Slipping Away Customers:** Previously engaged customers with declining activity. Re-engagement tactics such as exclusive discounts, personalized outreach, and reminder campaigns should be employed.
-- **Churned Customers:** Customers with minimal engagement and low spending. Win-back strategies, special reactivation offers, and targeted marketing can help revive interest.
+The **loyal customer** segment has 434 customers with the highest average monetary value of 8,502.
+These customers are likely the most engaged and profitable for the business, making them a key segment to retain.
+Potential Risk of Losing High-Value Customers:
 
-By leveraging RFM analysis, businesses can design data-driven customer retention strategies that enhance engagement, foster loyalty, and maximize customer lifetime value.
+The **Slipping Away, Cannot Lose** segment consists of 350 customers with an average monetary value of 6,902.
+Losing them would significantly impact revenue.
+A proactive retention strategy, such as personalized offers or loyalty programs, should be considered.
+Churned and Potential Churners Need Attention:
+
+**Churned Customers**: 622 customers, but their average monetary value is only 486, indicating they were not high spenders before leaving.
+
+**Potential Churners**: 350 customers with a monetary value of 1,064, meaning they are at risk but still have higher spending than churned customers.
+Retention strategies like targeted discounts or engagement campaigns could prevent further churn.
+Active and New Customers Show Growth Potential:
+
+**Active Customers** (367 customers, 950 monetary value) are engaged but spending relatively lower than loyal customers.
+Encouraging more frequent purchases or upselling could help grow their value.
+
+**New Customers** (17 customers, 185 monetary value) have the lowest count and spending, indicating a need for better onboarding and engagement strategies.
+"Other" Category is a Significant Segment:
+
+The **Other** category has 563 customers with an average monetary value of 3,233. Understanding the characteristics of these customers could help in better segmentation and targeted marketing efforts.
 
 
 ## Recommendations Based on Insights & Findings
